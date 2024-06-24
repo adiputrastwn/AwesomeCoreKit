@@ -30,7 +30,7 @@ AwesomeCoreKit an framework with awesome function
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'AwesomeCoreKit/Classes/**/*'
+  s.source_files = 'AwesomeCoreKit/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'AwesomeCoreKit' => ['AwesomeCoreKit/Assets/*.png']
