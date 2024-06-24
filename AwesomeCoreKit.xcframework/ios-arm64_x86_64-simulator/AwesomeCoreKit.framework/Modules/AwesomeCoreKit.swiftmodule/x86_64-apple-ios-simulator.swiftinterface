@@ -1,0 +1,17 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 effective-4.1.50 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AwesomeCoreKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AwesomeCoreKit
+import Foundation
+import PhoneNumberKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class AwesomeKit {
+  public init()
+  public func sayHello(name: Swift.String) -> Swift.String
+  public func isValidPhoneNumber(phoneNumber: Swift.String) -> Swift.Bool
+  @objc deinit
+}

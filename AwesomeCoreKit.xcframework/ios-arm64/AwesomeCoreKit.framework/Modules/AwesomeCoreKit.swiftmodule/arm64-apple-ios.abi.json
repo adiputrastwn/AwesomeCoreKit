@@ -1,0 +1,132 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AwesomeCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhoneNumberKit",
+        "printedName": "PhoneNumberKit",
+        "declKind": "Import",
+        "moduleName": "AwesomeCoreKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AwesomeKit",
+        "printedName": "AwesomeKit",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AwesomeKit",
+                "printedName": "AwesomeCoreKit.AwesomeKit",
+                "usr": "s:14AwesomeCoreKit0aC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AwesomeCoreKit0aC0CACycfc",
+            "mangledName": "$s14AwesomeCoreKit0aC0CACycfc",
+            "moduleName": "AwesomeCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AwesomeCoreKit0aC0C8sayHello4nameS2S_tF",
+            "mangledName": "$s14AwesomeCoreKit0aC0C8sayHello4nameS2S_tF",
+            "moduleName": "AwesomeCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isValidPhoneNumber",
+            "printedName": "isValidPhoneNumber(phoneNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AwesomeCoreKit0aC0C18isValidPhoneNumber05phoneG0SbSS_tF",
+            "mangledName": "$s14AwesomeCoreKit0aC0C18isValidPhoneNumber05phoneG0SbSS_tF",
+            "moduleName": "AwesomeCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AwesomeCoreKit0aC0C",
+        "mangledName": "$s14AwesomeCoreKit0aC0C",
+        "moduleName": "AwesomeCoreKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/adiputrasetiawan\/Documents\/projects\/AwesomeCoreKit\/AwesomeCoreKit\/Classes\/AwesomeCoreKit.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 15,
+      "value": "\"Hello \""
+    },
+    {
+      "filePath": "\/Users\/adiputrasetiawan\/Documents\/projects\/AwesomeCoreKit\/AwesomeCoreKit\/Classes\/AwesomeCoreKit.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 1,
+      "value": "\"\""
+    }
+  ]
+}

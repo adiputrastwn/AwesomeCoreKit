@@ -1,0 +1,11 @@
+framework module AwesomeCoreKit {
+  umbrella header "AwesomeCoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AwesomeCoreKit.Swift {
+  header "AwesomeCoreKit-Swift.h"
+  requires objc
+}
